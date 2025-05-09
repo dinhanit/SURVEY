@@ -1,0 +1,354 @@
+[
+  {
+    "id": "scenery",
+    "text": "Bạn mơ về một chuyến đi đến một nơi có cảnh quan như thế nào?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "beach",
+        "text": "Bãi biển trong xanh, cát trắng mịn màng, nắng vàng rực rỡ.",
+        "tags": ["BIỂN", "CÁT", "HÒN_ĐẢO", "BÃI_CỎ"]
+      },
+      {
+        "id": "mountain",
+        "text": "Núi non trùng điệp, không khí trong lành và cảnh sắc hùng vĩ.",
+        "tags": ["NÚI", "HÙNG_VĨ", "THIÊN_NHIÊN", "HOANG_SƠ", "ĐÈO", "THÁC_NƯỚC"]
+      },
+      {
+        "id": "city",
+        "text": "Thành phố hiện đại, năng động với nhiều hoạt động và kiến trúc ấn tượng.",
+        "tags": ["THÀNH_PHỐ", "NHỘN_NHỊP", "HIỆN_ĐẠI", "KIẾN_TRÚC", "QUẢNG_TRƯỜNG"]
+      },
+      {
+        "id": "village",
+        "text": "Làng quê thanh bình, nơi có thể cảm nhận văn hóa địa phương một cách chân thực.",
+        "tags": ["LÀNG", "YÊN_BÌNH", "TRUYỀN_THỐNG", "DÂN_GIAN", "ĐỊA_PHƯƠNG", "LÀNG_CHÀI"]
+      },
+      {
+        "id": "wilderness",
+        "text": "Những vùng đất hoang sơ, bí ẩn, chờ đợi được khám phá.",
+        "tags": ["HOANG_SƠ", "BÍ_ẨN", "KHÁM_PHÁ", "THIÊN_NHIÊN"]
+      },
+      {
+        "id": "historic",
+        "text": "Các địa danh gắn liền với lịch sử, văn hóa lâu đời.",
+        "tags": ["LỊCH_SỬ", "VĂN_HÓA", "DI_TÍCH", "CỔ_XƯA", "BẢO_TÀNG", "ĐỀN_THỜ", "CHÙA", "DI_SẢN"]
+      }
+    ],
+    "category": "general",
+    "tags": []
+  },
+  {
+    "id": "atmosphere",
+    "text": "Bạn mong muốn không khí và cảm giác chủ đạo của chuyến đi là gì?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "lively",
+        "text": "Sôi động, vui vẻ với nhiều hoạt động giải trí và giao lưu.",
+        "tags": ["VUI_CHƠI", "NHỘN_NHỊP", "SỰ_KIỆN", "LỄ_HỘI", "BẠN_BÈ"]
+      },
+      {
+        "id": "peaceful",
+        "text": "Yên tĩnh, thanh bình để hoàn toàn thư giãn và nạp lại năng lượng.",
+        "tags": ["YÊN_BÌNH", "THƯ_GIÃN", "NGHỈ_DƯỠNG", "RIÊNG_TƯ"]
+      },
+      {
+        "id": "romantic",
+        "text": "Lãng mạn, ngọt ngào, lý tưởng cho những khoảnh khắc đáng nhớ cùng người thương.",
+        "tags": ["LÃNG_MẠN", "CẶP_ĐÔI", "HOÀNG_HÔN", "BÌNH_MINH"]
+      },
+      {
+        "id": "nature",
+        "text": "Gần gũi với thiên nhiên, khám phá sự đa dạng của hệ sinh thái.",
+        "tags": ["THIÊN_NHIÊN", "HOANG_SƠ", "ĐỘNG_VẬT", "VƯỜN_HOA", "SUỐI", "THÁC_NƯỚC", "HANG_ĐỘNG", "SAN_HÔ", "ĐÁ", "CÔNG_VIÊN", "BẢO_TỒN"]
+      }
+    ],
+    "category": "general",
+    "tags": []
+  },
+  {
+    "id": "purpose",
+    "text": "Mục đích chính bạn hướng đến trong chuyến đi này là gì?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "relax",
+        "text": "Nghỉ dưỡng và phục hồi: Tận hưởng sự thoải mái, chăm sóc bản thân.",
+        "tags": ["NGHỈ_DƯỠNG", "THƯ_GIÃN", "CAO_CẤP"]
+      },
+      {
+        "id": "explore",
+        "text": "Khám phá và trải nghiệm: Tìm hiểu những điều mới lạ, mở rộng hiểu biết về văn hóa, lịch sử.",
+        "tags": ["TRẢI_NGHIỆM", "KHÁM_PHÁ", "VĂN_HÓA", "LỊCH_SỬ", "ĐỊA_PHƯƠNG", "DÂN_TỘC", "ĐỘC_ĐÁO"]
+      },
+      {
+        "id": "adventure",
+        "text": "Phiêu lưu và thử thách: Vượt qua giới hạn bản thân với các hoạt động mạo hiểm.",
+        "tags": ["MẠO_HIỂM", "LEO_NÚI", "LẶN", "LƯỚT_SÓNG", "PHƯỢT", "HANG_ĐỘNG"]
+      },
+      {
+        "id": "cuisine",
+        "text": "Thưởng thức ẩm thực: Khám phá hương vị đặc trưng của các vùng miền.",
+        "tags": ["ẨM_THỰC", "ĐẶC_SẢN", "NGON", "CÀ_PHÊ", "HẢI_SẢN", "CHỢ", "BÌNH_DÂN"]
+      },
+      {
+        "id": "bond",
+        "text": "Gắn kết tình cảm: Dành thời gian ý nghĩa bên gia đình hoặc bạn bè.",
+        "tags": ["GIA_ĐÌNH", "BẠN_BÈ", "TRẺ_EM", "CẶP_ĐÔI"]
+      },
+      {
+        "id": "events",
+        "text": "Tham gia sự kiện đặc biệt: Hòa mình vào không khí lễ hội, các chương trình văn hóa, nghệ thuật.",
+        "tags": ["SỰ_KIỆN", "LỄ_HỘI", "BIỂU_DIỄN", "VĂN_HÓA", "NGHỆ_THUẬT"]
+      }
+    ],
+    "category": "purpose",
+    "tags": []
+  },
+  {
+    "id": "activities",
+    "text": "Bạn đặc biệt hứng thú với những hoạt động nào dưới đây?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "water_sports",
+        "text": "Tắm biển, các môn thể thao dưới nước (ví dụ: lướt sóng, lặn biển).",
+        "tags": ["BIỂN", "BƠI_LỘI", "LẶN", "LƯỚT_SÓNG", "THỂ_THAO", "THUYỀN", "CÂU_CÁ", "SAN_HÔ"]
+      },
+      {
+        "id": "trekking",
+        "text": "Đi bộ khám phá (trekking), leo núi, khám phá hang động.",
+        "tags": ["ĐI_BỘ", "LEO_NÚI", "HANG_ĐỘNG", "NÚI", "MẠO_HIỂM", "HOANG_SƠ", "CON_ĐƯỜNG"]
+      },
+      {
+        "id": "camping",
+        "text": "Cắm trại, tận hưởng không gian ngoài trời.",
+        "tags": ["CẮM_TRẠI", "NGOÀI_TRỜI", "THIÊN_NHIÊN"]
+      },
+      {
+        "id": "sightseeing",
+        "text": "Tham quan các di tích lịch sử, bảo tàng, công trình kiến trúc cổ hoặc hiện đại.",
+        "tags": ["DI_TÍCH", "BẢO_TÀNG", "KIẾN_TRÚC", "CỔ_XƯA", "HIỆN_ĐẠI", "ĐỀN_THỜ", "CHÙA", "DI_SẢN", "QUẢNG_TRƯỜNG"]
+      },
+      {
+        "id": "cultural",
+        "text": "Tìm hiểu văn hóa, nghệ thuật, phong tục tập quán địa phương.",
+        "tags": ["VĂN_HÓA", "NGHỆ_THUẬT", "TRUYỀN_THỐNG", "DÂN_GIAN", "LÀNG_CHÀI", "DÂN_TỘC", "LỄ_HỘI"]
+      },
+      {
+        "id": "photography",
+        "text": "Chụp ảnh phong cảnh, kiến trúc, đời sống.",
+        "tags": ["CHỤP_ẢNH", "PHONG_CẢNH", "ĐẸP", "KIẾN_TRÚC", "BÌNH_MINH", "HOÀNG_HÔN"]
+      },
+      {
+        "id": "cuisine",
+        "text": "Thưởng thức ẩm thực đường phố, các món đặc sản tại các quán ăn, nhà hàng.",
+        "tags": ["ẨM_THỰC", "ĐẶC_SẢN", "NGON", "BÌNH_DÂN", "NHÀ_HÀNG", "CHỢ", "CÀ_PHÊ", "HẢI_SẢN"]
+      },
+      {
+        "id": "shopping",
+        "text": "Mua sắm đồ lưu niệm, sản vật địa phương.",
+        "tags": ["CỬA_HÀNG", "CHỢ", "ĐẶC_SẢN"]
+      },
+      {
+        "id": "experience_classes",
+        "text": "Tham gia các lớp học trải nghiệm (ví dụ: nấu ăn, làm gốm, vẽ tranh).",
+        "tags": ["TRẢI_NGHIỆM", "VĂN_HÓA", "NGHỆ_THUẬT"]
+      },
+      {
+        "id": "performances",
+        "text": "Xem các buổi biểu diễn nghệ thuật, âm nhạc truyền thống hoặc hiện đại.",
+        "tags": ["BIỂU_DIỄN", "SỰ_KIỆN", "NGHỆ_THUẬT", "VĂN_HÓA"]
+      },
+      {
+        "id": "spiritual",
+        "text": "Các hoạt động tâm linh, tôn giáo.",
+        "tags": ["TÂM_LINH", "TÔN_GIÁO", "CHÙA", "ĐỀN_THỜ"]
+      }
+    ],
+    "category": "activities",
+    "tags": []
+  },
+  {
+    "id": "accommodation",
+    "text": "Bạn ưu tiên loại hình lưu trú nào cho chuyến đi của mình?",
+    "type": "single",
+    "options": [
+      {
+        "id": "hotel",
+        "text": "Khách sạn đầy đủ tiện nghi, dịch vụ chuyên nghiệp.",
+        "tags": ["KHÁCH_SẠN", "HIỆN_ĐẠI"]
+      },
+      {
+        "id": "resort",
+        "text": "Resort sang trọng với không gian nghỉ dưỡng đẳng cấp và nhiều tiện ích giải trí.",
+        "tags": ["RESORT", "CAO_CẤP", "NGHỈ_DƯỠNG", "THƯ_GIÃN"]
+      },
+      {
+        "id": "homestay",
+        "text": "Nhà nghỉ, homestay ấm cúng, giá cả phải chăng và gần gũi với cuộc sống địa phương.",
+        "tags": ["NHÀ_NGHỈ", "BÌNH_DÂN", "ĐỊA_PHƯƠNG", "GIA_ĐÌNH"]
+      },
+      {
+        "id": "private",
+        "text": "Chỗ ở có không gian riêng tư, yên tĩnh, biệt lập.",
+        "tags": ["RIÊNG_TƯ", "YÊN_BÌNH"]
+      },
+      {
+        "id": "unique",
+        "text": "Chỗ ở có thiết kế kiến trúc độc đáo, mang đậm dấu ấn văn hóa hoặc nghệ thuật.",
+        "tags": ["KIẾN_TRÚC", "ĐỘC_ĐÁO", "TRUYỀN_THỐNG", "NGHỆ_THUẬT"]
+      }
+    ],
+    "category": "accommodation",
+    "tags": []
+  },
+  {
+    "id": "companions",
+    "text": "Bạn thường đi du lịch cùng ai nhất?",
+    "type": "single",
+    "options": [
+      {
+        "id": "solo",
+        "text": "Một mình (khám phá tự do).",
+        "tags": ["TỰ_TÚC", "KHÁM_PHÁ"]
+      },
+      {
+        "id": "couple",
+        "text": "Cùng người yêu/bạn đời.",
+        "tags": ["CẶP_ĐÔI", "LÃNG_MẠN"]
+      },
+      {
+        "id": "family",
+        "text": "Cùng gia đình (có thể bao gồm cả trẻ nhỏ và người lớn tuổi).",
+        "tags": ["GIA_ĐÌNH", "TRẺ_EM"]
+      },
+      {
+        "id": "friends",
+        "text": "Cùng nhóm bạn thân.",
+        "tags": ["BẠN_BÈ", "VUI_CHƠI", "NHỘN_NHỊP"]
+      },
+      {
+        "id": "tour",
+        "text": "Theo các tour du lịch có tổ chức.",
+        "tags": ["TOUR", "DI_CHUYỂN"]
+      }
+    ],
+    "category": "companions",
+    "tags": []
+  },
+  {
+    "id": "important_factors",
+    "text": "Theo bạn, yếu tố nào là QUAN TRỌNG NHẤT để tạo nên một chuyến đi đáng nhớ?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "scenery",
+        "text": "Phong cảnh thiên nhiên tươi đẹp, ấn tượng.",
+        "tags": ["PHONG_CẢNH", "ĐẸP", "HÙNG_VĨ", "HOANG_SƠ", "THIÊN_NHIÊN"]
+      },
+      {
+        "id": "cuisine",
+        "text": "Ẩm thực phong phú, hương vị đặc sắc.",
+        "tags": ["ẨM_THỰC", "NGON", "ĐẶC_SẢN", "HẢI_SẢN"]
+      },
+      {
+        "id": "cultural",
+        "text": "Cơ hội trải nghiệm và hiểu biết sâu sắc về văn hóa địa phương.",
+        "tags": ["VĂN_HÓA", "ĐỊA_PHƯƠNG", "TRUYỀN_THỐNG", "LỊCH_SỬ", "TRẢI_NGHIỆM"]
+      },
+      {
+        "id": "activities",
+        "text": "Nhiều hoạt động vui chơi, giải trí đa dạng.",
+        "tags": ["VUI_CHƠI", "HOẠT_ĐỘNG", "SỰ_KIỆN", "THỂ_THAO"]
+      },
+      {
+        "id": "relaxation",
+        "text": "Không gian yên tĩnh, riêng tư để thư giãn tuyệt đối.",
+        "tags": ["YÊN_BÌNH", "THƯ_GIÃN", "RIÊNG_TƯ", "NGHỈ_DƯỠNG"]
+      },
+      {
+        "id": "uniqueness",
+        "text": "Sự độc đáo, mới lạ và những kỷ niệm khó quên.",
+        "tags": ["ĐỘC_ĐÁO", "BÍ_ẨN", "KHÓ_QUÊN", "TRẢI_NGHIỆM"]
+      },
+      {
+        "id": "budget",
+        "text": "Chi phí hợp lý, phù hợp với ngân sách.",
+        "tags": ["BÌNH_DÂN", "TỰ_TÚC"]
+      },
+      {
+        "id": "luxury",
+        "text": "Chất lượng dịch vụ tiện nghi, cao cấp.",
+        "tags": ["CAO_CẤP", "HIỆN_ĐẠI", "KHÁCH_SẠN", "RESORT"]
+      },
+      {
+        "id": "convenience",
+        "text": "Sự thuận tiện trong việc di chuyển, đi lại.",
+        "tags": ["DI_CHUYỂN", "CON_ĐƯỜNG", "SÂN_BAY", "THÀNH_PHỐ"]
+      }
+    ],
+    "category": "important_factors",
+    "tags": []
+  },
+  {
+    "id": "special_requests",
+    "text": "Bạn có bất kỳ yêu cầu hoặc sở thích đặc biệt nào khác cho chuyến đi không?",
+    "type": "multiple",
+    "options": [
+      {
+        "id": "airport",
+        "text": "Gần sân bay, thuận tiện di chuyển.",
+        "tags": ["SÂN_BAY", "DI_CHUYỂN"]
+      },
+      {
+        "id": "kids",
+        "text": "Có khu vui chơi, phù hợp cho trẻ em.",
+        "tags": ["TRẺ_EM", "CÔNG_VIÊN", "GIA_ĐÌNH"]
+      },
+      {
+        "id": "business",
+        "text": "Phù hợp cho chuyến đi công tác kết hợp nghỉ dưỡng.",
+        "tags": ["HỘI_THẢO", "HIỆN_ĐẠI", "KHÁCH_SẠN"]
+      },
+      {
+        "id": "conservation",
+        "text": "Quan tâm đến các vấn đề bảo tồn, môi trường.",
+        "tags": ["BẢO_TỒN", "THIÊN_NHIÊN", "ĐỘNG_VẬT"]
+      },
+      {
+        "id": "science",
+        "text": "Có các hoạt động khoa học, giáo dục.",
+        "tags": ["KHOA_HỌC", "BẢO_TÀNG"]
+      },
+      {
+        "id": "international",
+        "text": "Có yếu tố quốc tế, giao lưu văn hóa.",
+        "tags": ["QUỐC_TẾ", "VĂN_HÓA"]
+      },
+      {
+        "id": "suburb",
+        "text": "Ở ngoại ô, xa trung tâm thành phố.",
+        "tags": ["NGOẠI_Ô", "YÊN_BÌNH"]
+      },
+      {
+        "id": "weekend",
+        "text": "Phù hợp cho chuyến đi cuối tuần ngắn ngày.",
+        "tags": ["CUỐI_TUẦN", "GẦN"]
+      },
+      {
+        "id": "religion",
+        "text": "Có yếu tố tôn giáo, tâm linh.",
+        "tags": ["TÔN_GIÁO", "TÂM_LINH", "CHÙA", "ĐỀN_THỜ"]
+      },
+      {
+        "id": "community",
+        "text": "Tương tác với cộng đồng địa phương.",
+        "tags": ["ĐỊA_PHƯƠNG", "CỘNG_ĐỒNG", "LÀNG_CHÀI", "LÀNG", "TRUYỀN_THỐNG"]
+      }
+    ],
+    "category": "special_requests",
+    "tags": []
+  }
+] 
